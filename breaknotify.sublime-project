@@ -1,0 +1,17 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4,
+        "sublimeclang_show_output_panel": false,
+        "sublimeclang_options":
+        [
+            "-include", "Prefix.h"
+        ]
+    }
+}

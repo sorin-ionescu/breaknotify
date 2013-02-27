@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Notifications</key>
+  <array>
+    <dict>
+      <key>Name</key>
+      <string>Mini</string>
+      <key>Enabled</key>
+      <true/>
+      <key>Sticky</key>
+      <false/>
+      <key>Interval</key>
+      <real>300.0</real>
+      <key>Title</key>
+      <string>Mini Break</string>
+      <key>Description</key>
+      <string>Take a small break!</string>
+      <key>Sound</key>
+      <string>Submarine</string>
+    </dict>
+    <dict>
+      <key>Name</key>
+      <string>Full</string>
+      <key>Enabled</key>
+      <true/>
+      <key>Sticky</key>
+      <true/>
+      <key>Interval</key>
+      <real>600.0</real>
+      <key>Title</key>
+      <string>Full Break</string>
+      <key>Description</key>
+      <string>Take a break!</string>
+      <key>Sound</key>
+      <string>Ping</string>
+    </dict>
+  </array>
+  <key>Silencers</key>
+  <array>
+    <string>iTunes</string>
+    <string>MPlayerX</string>
+    <string>QuickTime Player</string>
+    <string>VLC</string>
+  </array>
+</dict>
+</plist>
